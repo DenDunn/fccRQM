@@ -5,6 +5,7 @@
         <title>Title</title>
 
         <!-- CDN -->
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="stylesfile.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -23,17 +24,15 @@
                     </div>
                 </div>
                 <div class = "row text-right">
-                     <a class="col-xs-9 twitter-share-button" id="twitterious"
-                         href="https://twitter.com/intent/tweet"
-                         target="_blank">
-                         <!--i>fa fa-twitter</i-->
-                         Tweet</a>
+                     <div class="col-xs-9">
+                         <button class = "btn btn-default btn-lg" id = "tweetMessage"><i class="fa fa-twitter fa-fw"></i> Tweet it</button>
+                     </div>
                      <div class = "col-xs-1">
-                         <button id = "QuoteBtn" class = "btn btn-primary">
+                         <button id = "QuoteBtn" class = "btn btn-default btn-lg"><i class="fa fa-lightbulb-o"></i>
                              A quote!
                          </button>
                      </div>
-                 </div>
+                </div>
             </div>
         </div>
         <script async="" src="qlogic.js"></script>
