@@ -1,0 +1,16 @@
+.bckgr1 {
+    background-color: #ffffff;
+    color: #000000;
+}
+.bckgr2 {
+    background-color: #0000ff;
+    color: #ffffff;
+}
+.bckgr3 {
+    background-color: #992222;
+    color: #000000;
+}
+.container-fluid{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}

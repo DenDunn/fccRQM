@@ -15,8 +15,4 @@ $(document).ready(function() {
             }
         })
     });
-    $("#tweet").on("click", function(){
-        $("#qoutePlace").html("...");
-        $("#authorPlace").html("...");
-    })
 });
