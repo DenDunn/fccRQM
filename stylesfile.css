@@ -14,3 +14,15 @@
     padding-top: 120px;
     padding-bottom: 170px;
 }
+
+#qoutePlace{
+    font-style: normal;
+    font-size: larger;
+    font-family: SansSerif;
+}
+
+#authorPlace{
+    font-style: italic;
+    font-size: medium;
+    font-family: SansSerif;
+}
