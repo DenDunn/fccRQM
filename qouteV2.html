@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>RandomQuoteMachine</title>
+    <!-- CDN -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- CDN -->
+
+    <!--my styles-->
+    <link rel="stylesheet" href="stylesfile.css">
+    <!--my styles-->
+
+    <!-- scripts -->
+    <script async="" src="qlogic.js"></script>
+    <!-- scripts -->
 </head>
 <body>
-$END$
+    <div class="qoute-container">
+        Random Quote Machine
+        <div id="qoutePlace" class="qoute">quote</div>
+        <div id="authorPlace" class="author">author</div>
+        <div class="butns">
+            <button id="tweetMessage" class="fa fa-twitter fa-fn"></button>
+            <button id="QuoteBtn" class="fa fa-fire fa-fn">Get a qoute!</button>
+        </div>
+    </div>
 </body>
 </html>
