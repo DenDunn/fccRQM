@@ -1,28 +1,53 @@
-.bckgr1 {
-    background-color: #ffffff;
-    color: #000000;
-}
-.bckgr2 {
-    background-color: #0000ff;
-    color: #ffffff;
-}
-.bckgr3 {
-    background-color: #992222;
-    color: #000000;
-}
-.container-fluid{
-    padding-top: 120px;
-    padding-bottom: 170px;
+.qoute-container {
+    border-radius: 15px;
+    background-color: gainsboro;
+    padding: 25px;
+    margin: 70px auto auto auto;
+    width: 60%;
+    text-align: center;
+    position: relative;
 }
 
-#qoutePlace{
+.qoute{
+    margin: 5px 10px 5px 10px;
     font-style: normal;
     font-size: larger;
     font-family: SansSerif;
 }
 
-#authorPlace{
+.author{
+    margin: 5px 10px 5px 10px;
     font-style: italic;
     font-size: medium;
     font-family: SansSerif;
+}
+
+.butns {
+    margin: auto;
+    width: 300px;
+    padding: 3px 0;
+}
+
+button {
+    height: 45px;
+    position: inherit;
+    margin: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid darkgrey;
+    padding: 15px;
+}
+
+body {
+    background-color: lightgreen;
+    animation-name: pback;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes pback {
+    from {background-color: lightgreen;}
+    to {background-color: cornflowerblue;}
 }
