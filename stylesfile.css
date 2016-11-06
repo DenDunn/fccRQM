@@ -3,7 +3,8 @@
     background-color: gainsboro;
     padding: 25px;
     margin: 70px auto auto auto;
-    width: 60%;
+    min-width: 300px;
+    max-width: 60%;
     text-align: center;
     position: relative;
 }
@@ -30,7 +31,7 @@
 
 button {
     height: 45px;
-    position: inherit;
+    position: relative;
     margin: 10px 15px 10px 15px;
     border-radius: 5px;
     border: 1px solid darkgrey;
